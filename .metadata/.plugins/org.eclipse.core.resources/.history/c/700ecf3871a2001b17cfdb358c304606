@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/clnic/patient",
+initialSort:"age asc",
+items:[
+{foreignColumnName:"patientid",primaryDataProviderID:"deptid",typeid:23,uuid:"5077EC31-7825-4692-8D1B-6F4813EF3F9C"}
+],
+name:"department_to_patient",
+primaryDataSource:"db:/clnic/department",
+typeid:22,
+uuid:"5491D984-B035-414A-95A1-FDD1743D537F"

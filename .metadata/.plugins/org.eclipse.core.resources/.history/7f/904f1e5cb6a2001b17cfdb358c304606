@@ -1,0 +1,113 @@
+
+/**
+ * @param {JSEvent} event
+ *
+ * @properties={typeid:24,uuid:"A72DAB4A-E8FE-4604-AF51-BACCC1270F1C"}
+ */
+
+/**
+ * @properties={typeid:35,uuid:"C99FB7B0-C75C-43C7-9348-4C1B0473025A",variableType:-4}
+ */
+
+/**
+ * TODO generated, please specify type and doc for the params
+ * @param event
+ *
+ * @properties={typeid:24,uuid:"370445DE-AF6A-4E14-B690-9E7F3541633B"}
+ */
+
+
+
+/**
+ * TODO generated, please specify type and doc for the params
+ * @param event
+ *
+ * @properties={typeid:24,uuid:"A698BBA2-533A-4235-9A21-2A782223DE8F"}
+ */
+function Save(event) {
+	// TODO Auto-generated method stub
+	 var d = new Date();
+	var n = d.toLocaleString();
+	
+	ddate = n;
+	databaseManager.saveData();
+	history.back();
+	application.output("saved");
+	application.output(n);
+	
+}
+
+/**
+ * Callback method when form is (re)loaded.
+ *
+ * @param {JSEvent} event the event that triggered the action
+ *
+ * @properties={typeid:24,uuid:"39FE4028-24B9-4779-A937-46D23D835250"}
+ */
+function onLoad(event) {
+	// TODO Auto-generated method stub
+	databaseManager.setAutoSave(false);
+}
+
+/**
+ * @param {JSEvent} event
+ *
+ * @properties={typeid:24,uuid:"C16BDD18-03FF-4D62-B9B6-0A7AE75FEBBB"}
+ */
+function foundser(event) {
+	// TODO Auto-generated method stub
+	foundset.newRecord();
+
+}
+
+/**
+ * @param {JSEvent} event
+ *
+ * @properties={typeid:24,uuid:"A5A5FF37-67B7-47A5-85F1-6AA719198E61"}
+ */
+function onAction(event) {
+	// TODO Auto-generated method stub
+	forms.Doctor.controller.show();
+
+}
+
+/**
+ * @param {JSEvent} event
+ *
+ * @properties={typeid:24,uuid:"BABA113A-4B17-46BB-BD87-96B5A039D34C"}
+ */
+function onAction1(event) {
+	// TODO Auto-generated method stub
+	forms.Departmen.controller.show();
+
+
+}
+
+/**
+ * @param {JSEvent} event
+ *
+ * @properties={typeid:24,uuid:"EC575BF4-3D3F-491F-9822-43A3A73452AC"}
+ */
+function onAction2(event) {
+	// TODO Auto-generated method stub
+	history.back();
+
+}
+
+/**
+ * @param {JSEvent} event
+ *
+ * @properties={typeid:24,uuid:"C174E5E7-7C26-43AB-ABC7-C8D8C33BBCD4"}
+ */
+function onFocusGained(event) {
+	// TODO Auto-generated method stub
+
+	if(age <= 15){
+		
+		application.output("good");
+		ageg == sadasd;
+	
+	}
+	else
+		application.output("old");
+	}

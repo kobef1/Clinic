@@ -1,0 +1,13 @@
+addEmptyValue:1,
+customProperties:"lazyLoading:false",
+dataProviderID1:"name",
+dataProviderID2:"name",
+dataSource:"db:/clnic/department",
+displayValueType:12,
+name:"Doctdept",
+realValueType:12,
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"7AC63CD7-0BA0-4C86-9309-7DC7A93E9B5B",
+valueListType:1

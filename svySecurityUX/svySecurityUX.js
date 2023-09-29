@@ -33,7 +33,7 @@ var SVY_SECURITY_UX = {
 var SVY_SECURITY_EVENTS = {
 	AFTER_USER_CREATE: 'after-user-create'
 };
-
+////////////////////////////////
 /**
  * WARNING: DO NOT CALL THIS FUNCTION
  * This function is used internally by svySecurityUX module, do not call this function
